@@ -1,0 +1,6 @@
+crewai
+langchain-openai
+python-decouple
+python-dotenv
+requests
+pydantic
