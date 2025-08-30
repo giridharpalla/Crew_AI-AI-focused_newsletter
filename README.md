@@ -1,11 +1,8 @@
-Here’s a clean, well-formatted version of your README content suitable for a Markdown file:
-
-````markdown
 # AI-Focused Newsletter Automation
 
 This project automates the creation of an AI-focused newsletter using a team of autonomous AI agents built with the **CrewAI** framework.
 
----
+***
 
 ## Overview
 
@@ -18,7 +15,7 @@ The system works as a hierarchical team of agents, each with a specialized role:
 
 The process is managed by a lead agent (`manager_llm`) that delegates tasks to the specialized agents. The final output is saved as a date-stamped markdown file, ready for distribution.
 
----
+***
 
 ## Key Technologies
 
@@ -27,7 +24,7 @@ The process is managed by a lead agent (`manager_llm`) that delegates tasks to t
 - **[python-decouple](https://pypi.org/project/python-decouple/)** and **[python-dotenv](https://pypi.org/project/python-dotenv/)**: For managing API keys and environment variables.
 - **Custom `SearchInternetTool`**: Uses the Serper API for real-time news searches.
 
----
+***
 
 ## Workflow
 
@@ -37,38 +34,39 @@ The process is managed by a lead agent (`manager_llm`) that delegates tasks to t
 4. **Review & Quality Control**: `Editor` ensures consistency, clarity, and engagement.
 5. **Output**: The final newsletter is saved as a date-stamped `.md` file for distribution.
 
----
+***
 
 ## Setup
 
 1. Clone the repository.
-2. Create a virtual environment:
-  ```bash
-   python -m venv venv
-  ```
-   
 
+2. Create a virtual environment:
+
+   ```bash
+   python -m venv venv
+   ```
 
 3. Activate the virtual environment:
+
    ```bash
    venv\Scripts\activate
    ```
 
-3. Install dependencies:
+4. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
-4. Add your API keys to a `.env` file:
+
+5. Add your API keys to a `.env` file:
 
    ```env
    GOOGLE_API_KEY=your_openai_api_key
    SERPER_API_KEY=your_serper_api_key
    ```
-5. Run the main script:
+
+6. Run the main script:
 
    ```bash
    python main.py
    ```
-
----
