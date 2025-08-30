@@ -43,9 +43,11 @@ The process is managed by a lead agent (`manager_llm`) that delegates tasks to t
 
 1. Clone the repository.
 2. Create a virtual environment:
-   ```bash
+  ```bash
    python -m venv venv
-```
+   ```
+   
+
 
 3. Activate the virtual environment:
    ```bash
